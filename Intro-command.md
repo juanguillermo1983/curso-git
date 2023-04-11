@@ -35,5 +35,6 @@ uso de checout traes los cambios de una rama a mi repo local
 cambio local agrego esta linea  
  
  ## ingreso remoto server 
- - se debe conservar
+ - se debe conserv
+ - agrego nueva
  
