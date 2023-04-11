@@ -37,4 +37,5 @@ cambio local agrego esta linea
  ## ingreso remoto server 
  - se debe conserv
  - agrego nueva
+ - nueva con commit
  
