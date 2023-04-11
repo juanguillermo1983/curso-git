@@ -21,3 +21,5 @@
 - `git diff`   *para comparar dos versiones ingresando el tag, git diff (antiguo nuevo)*
 ingreso para pueba 
 debe ser un rtexto mas elaborado, este texto reeemplazo el de prueba  
+
+## Ingreso de cambios en remote server
