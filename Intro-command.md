@@ -20,4 +20,4 @@
 - `git show`   *muestra el historial de cambios comenzando por mostrar el numero de tag*
 - `git diff`   *para comparar dos versiones ingresando el tag, git diff (antiguo nuevo)*
 ingreso para pueba 
-texto de prueba 
+debe ser un rtexto mas elaborado, este texto reeemplazo el de prueba  
