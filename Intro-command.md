@@ -32,7 +32,7 @@ commit se va al repositorio (master)
 
 uso de checout traes los cambios de una rama a mi repo local 
 
-cambio local agrego esta linea  
+quito esta linea 
  
  ## ingreso remoto server 
  - se debe conservar
