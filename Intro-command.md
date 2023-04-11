@@ -34,4 +34,8 @@ uso de checout traes los cambios de una rama a mi repo local
 
 ## se crea la nueva rama dev
 
+
+ingreso de nuevas lineas
+de texto
+
  
