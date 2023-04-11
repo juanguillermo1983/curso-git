@@ -32,4 +32,6 @@ commit se va al repositorio (master)
 
 uso de checout traes los cambios de una rama a mi repo local 
 
+## se crea la nueva rama dev
+
  
