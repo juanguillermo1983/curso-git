@@ -33,3 +33,6 @@ commit se va al repositorio (master)
 uso de checout traes los cambios de una rama a mi repo local 
  cada commit es una nueva version 
  
+ ## ingreso remoto server 
+ - se debe conservar
+ 
