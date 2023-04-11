@@ -18,4 +18,4 @@
 - `git config --global user.email` *cambiar el email de la configuracion global*
 ## analizar cambios en el archivo
 - `git show`   *muestra el historial de cambios comenzando por mostrar el numero de tag*
-- `git rm`   *para quitar un archivo del repo*
+- `git diff`   *para comparar dos versiones ingresando el tag, git diff (antiguo nuevo)*
