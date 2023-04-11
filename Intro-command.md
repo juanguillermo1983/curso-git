@@ -31,5 +31,6 @@ commit se va al repositorio (master)
 3 commit -m los envia desde stagging al repo 
 
 uso de checout traes los cambios de una rama a mi repo local 
- cada commit es una nueva version 
+
+cambio local agrego esta linea  
  
