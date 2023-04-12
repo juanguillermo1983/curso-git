@@ -35,11 +35,12 @@ uso de checout traes los cambios de una rama a mi repo local
 ## se crea la nueva rama dev
 inicio
 de 
-el desarrollo en 
+el *desarrollo* en 
 dev repo
+texto cursiva 
 
 
-ingreso de nuevas lineas
-de texto
+o ingreso de nuevas lineas actualiza linea 1
+o de texto actualizada *con cursiva * 
 
  
