@@ -41,7 +41,7 @@ texto cursiva
 
 
 o ingreso de nuevas lineas actualiza linea 1
-o de texto actualizada *con cursiva * 
+echo line "texto" o de texto actualizada *con cursiva * 
 
 ingreso de lineas finales 
  
