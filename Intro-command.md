@@ -33,16 +33,23 @@ commit se va al repositorio (master)
 uso de checout traes los cambios de una rama a mi repo local 
 
 ## se crea la nueva rama dev
-inicio
-de 
-el *desarrollo* en 
-dev repo
-texto cursiva 
-
-
-o ingreso de nuevas lineas actualiza linea 1
-o de texto actualizada *con cursiva * echo $1 $2 
-echo line "texto" o de texto actualizada *con cursiva * 
-
-ingreso de lineas finales 
- 
+Qué regla produciría una advertencia "would be overwritten"?
+Si ha modificado un archivo que también tiene modificaciones en el repositorio remoto pero no lo ha hecho un commit.
+### Opciones
+1. Desea forzar un pull para sobrescribir el archivo Obviamente, si realmente quieres esto, no te importan los cambios que acabas de hacer y no te importa eliminarlos. Si es así, simplemente haz lo siguiente:
+```
+git reset --hard
+git pull
+```
+2. Si quieres ambos, tus cambios como los cambios desde el pull La forma más fácil de manejar esto en mi opinión es hacer un commit de tus cambios y luego hacer un pull. Entonces si hay un conflicto merge utiliza los mecanismos generalmente para resolver el merge (hint: configura difftool y mergetool así que usted puede resolver fácilmente conflictos usando GUI tools como el meld o el diffmerge etc.). Solo haz:
+```
+git add $archivo_afectado
+git commit
+git pull
+```
+3. Si quieres ambos cambios pero no tienes listo tu commit Pero sucede de vez en cuando usted tiene código parcialmente roto que usted está depurando y usted realmente no desea hacer un commit. En este caso puede almacenar los cambios temporalmente y luego desarmarlo, haz lo siguiente:
+```
+git stash
+git pull
+git stash pop 
+```
