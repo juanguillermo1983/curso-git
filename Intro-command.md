@@ -41,7 +41,7 @@ texto cursiva
 
 
 o ingreso de nuevas lineas actualiza linea 1
-o de texto actualizada *con cursiva * 
+o de texto actualizada *con cursiva * echo $1 $2 
 
 ingreso de lineas finales 
  
