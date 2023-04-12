@@ -30,7 +30,19 @@ commit se va al repositorio (master)
 2 git add toma las modifricaciones y manda a stagging area .....esta siendo trackeado en stagging
 3 commit -m los envia desde stagging al repo 
 
-uso de checout traes los cambios de una rama a mi repo local 
+
+## uso de git reset
+- primero se debe ver el log de cambios
+ git reset <hash de cambio>  --hard
+git reset <hash de cambio>  -- soft  , este mantiene los cambios en staging ( todo lo que ha sido guardado con git addd)
+
+-- va a borrar el historial 
+
+
+
+
+
+
 
 ## se crea la nueva rama dev
 Qué regla produciría una advertencia "would be overwritten"?
